@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1B83AF272E6D5B0061A608 /* Introduce.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B83AC272E6D5B0061A608 /* Introduce.md */; };
+		3B1B83B0272E6D5B0061A608 /* Preview.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B83AD272E6D5B0061A608 /* Preview.md */; };
+		3B1B83B1272E6D5B0061A608 /* Grammar.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B83AE272E6D5B0061A608 /* Grammar.md */; };
 		523F427227291D5C001216AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523F427127291D5C001216AD /* AppDelegate.m */; };
 		523F427527291D5C001216AD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523F427427291D5C001216AD /* SceneDelegate.m */; };
 		523F427827291D5C001216AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523F427727291D5C001216AD /* ViewController.m */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B1B83AC272E6D5B0061A608 /* Introduce.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Introduce.md; sourceTree = "<group>"; };
+		3B1B83AD272E6D5B0061A608 /* Preview.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Preview.md; sourceTree = "<group>"; };
+		3B1B83AE272E6D5B0061A608 /* Grammar.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Grammar.md; sourceTree = "<group>"; };
 		523F426D27291D5C001216AD /* DocProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		523F427027291D5C001216AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		523F427127291D5C001216AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,6 +50,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B1B83AB272E6D5B0061A608 /* Markdown */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B83AC272E6D5B0061A608 /* Introduce.md */,
+				3B1B83AD272E6D5B0061A608 /* Preview.md */,
+				3B1B83AE272E6D5B0061A608 /* Grammar.md */,
+			);
+			path = Markdown;
+			sourceTree = "<group>";
+		};
 		523F426427291D5C001216AD = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +79,7 @@
 		523F426F27291D5C001216AD /* DocProject */ = {
 			isa = PBXGroup;
 			children = (
+				3B1B83AB272E6D5B0061A608 /* Markdown */,
 				523F428B27292210001216AD /* Xcode */,
 				523F427027291D5C001216AD /* AppDelegate.h */,
 				523F427127291D5C001216AD /* AppDelegate.m */,
@@ -143,10 +160,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1B83B1272E6D5B0061A608 /* Grammar.md in Resources */,
 				523F428027291D5C001216AD /* LaunchScreen.storyboard in Resources */,
 				523F427D27291D5C001216AD /* Assets.xcassets in Resources */,
 				523F428D27292210001216AD /* ShortcutKey.md in Resources */,
 				523F427B27291D5C001216AD /* Main.storyboard in Resources */,
+				3B1B83AF272E6D5B0061A608 /* Introduce.md in Resources */,
+				3B1B83B0272E6D5B0061A608 /* Preview.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
